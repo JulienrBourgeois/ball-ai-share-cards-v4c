@@ -32,6 +32,21 @@
 Reference renders: pack-v4b `share/`, `thumb/`, `gen4b.py`, `manifest.json`.
 
 ---
+
+**Public image refs (anyone can view — raw GitHub):**
+- Contact sheet (all 37 stories): https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/contact-sheet-share-all37.jpg
+- Contact sheet (thumbs): https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/contact-sheet-thumb-all37.jpg
+- **Hero / match this:** Infinite Handles → https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/share/dribbling/bally-s-infinite-handles-share.jpg
+- Handles with Gru → https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/share/dribbling/handleswithgru-share.jpg
+- Rate My Form → https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/share/shooting/rate-my-form-share.jpg
+- Infinite Shootaround → https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/share/shooting/bally-s-infinite-shootaround-share.jpg
+- Infinite Finishing → https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/share/finishing/bally-s-infinite-finishing-share.jpg
+- Full pack browse: https://github.com/JulienrBourgeois/ball-ai-share-cards-v4c
+- Raw root: https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/
+- Per-drill story path: `https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/share/<category>/<slug>-share.jpg`
+- Per-drill thumb path: `https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/thumb/<category>/<slug>-thumb.jpg`
+
+
 # Ball AI Workout Share Cards — v4 (Photo BG + Strava stats-sticker + SwiftUI glass)
 
 Implement in SwiftUI (ImageRenderer → 540×960 story share; 640×640 square thumb, JPEG ~0.85).
