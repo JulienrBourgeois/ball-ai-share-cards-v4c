@@ -103,3 +103,33 @@ streetball | File:The Vladivostok Streetball Association DVIDS278601.jpg
 court-portrait | File:Basketball court, Mid Street Recreation Ground, Nutfield, Surrey - May 2026 - 02.jpg
 gym-portrait | File:Basketball Court at Jamia Millia Islamia Sports Complex 4.jpg
 dribble-sidewalk | File:Boy dribbling a Basketball at a Sidewalk in downtown Taichung.jpg
+
+## Special kits (reaction / athleticism) — v4d
+CEO: reaction / athleticism drills get their **own** bottom UI — NOT the generic dribbling 2×3 chip grid. Same chrome locks (photo top ~50–55%, Powered-by bubble TL 52pt, drill-title glass capsule TR, no streak/XP/OVR/profile). Numbers below are sample mock data. Implement as a `ShareKit` enum (`.shot, .dribble, .orbs, .cones, .cadence, .rate`) chosen per drill.
+
+- Contact sheet (all kits): https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/contact-sheet.jpg
+- Story: `https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/<slug>-share.jpg` · Thumb: `https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/thumb/<slug>-thumb.jpg`
+
+### 1. Orbs kit — Reaction, Ordered Reaction, Single Target, Double Target
+- Hero left (120pt): SCORE (Reaction / Ordered) or HITS m/n (Single / Double Target).
+- Glass panel (~200pt): sparkline of last-16 reaction times (faster = higher, white dot = best), then a row of 10 orbs from the session's last 10 prompts: **hit** = filled orb in prompt color + glow + outer ring; **miss** = dim outline + ×. Ordered Reaction shows sequence numbers 1–10 on the orbs.
+- Accent: athleticism #F43F5E (Reaction / Ordered, multicolor orbs); dribbling #22D3EE for target drills (Double Target alternates cyan/rose).
+- Chips (3-col, 72pt): HITS, AVG RT, BEST RT, STREAK, TIME, CLEAN % (target drills: SCORE, AVG RT, BEST RT, CLEAN, TIME).
+- Hero: https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/ordered-reaction-share.jpg · https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/reaction-share.jpg · https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/single-target-share.jpg · https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/double-target-share.jpg
+
+### 2. Cones kit — Lateral Shuffle (+ cone agility)
+- Hero REPS (120pt). Glass panel with 5 LARGE orange traffic cones with white stripes on a lane line; lit + glow = clean touch, grey = missed. "◀ ▶" shuffle marker top-right.
+- Chips: SCORE, CLEAN %, BEST SPLIT, DIR CHANGES, TIME.
+- Hero: https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/lateral-shuffle-share.jpg
+
+### 3. Cadence kit — Jumping Jacks, High Knees
+- Big circular cadence ring (r≈150pt, 16pt stroke) centered; progress = time/goal; 60 per-second hash marks around it, best-10s window highlighted in accent; REPS huge in center. Side callouts: "60s GOAL ✓" left, "BEST 10s n reps" right.
+- Chips 2×2: AVG CADENCE (/min), BEST 10s, GOAL, TIME.
+- Hero: https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/jumping-jacks-share.jpg · https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/high-knees-share.jpg
+
+### 4. Rate My kit — Rate my form, Rate my handles
+- Its own kit (unchanged from v4c): single bottom glass card, overall /10 (104pt) + POTENTIAL left, ProgressView dimension bars right.
+- https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/rate-my-form-share.jpg · https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/share/rate-my-handles-share.jpg
+
+Thumbs (640×640): same kit visual, one chip row (≤5) — or ring left + stacked chips right for cadence.
+Reference generator (PIL): https://raw.githubusercontent.com/JulienrBourgeois/ball-ai-share-cards-v4c/master/reaction-kits/gen4d.py

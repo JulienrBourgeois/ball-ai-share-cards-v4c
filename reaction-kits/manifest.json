@@ -1,0 +1,248 @@
+{
+ "version": "4d",
+ "drills": [
+  {
+   "title": "Reaction",
+   "kit": "orbs",
+   "hero": [
+    "SCORE",
+    "980"
+   ],
+   "tiles": [
+    [
+     "HITS",
+     "41/50"
+    ],
+    [
+     "AVG RT",
+     "340ms"
+    ],
+    [
+     "BEST RT",
+     "201ms"
+    ],
+    [
+     "STREAK",
+     "8"
+    ],
+    [
+     "TIME",
+     "2:10"
+    ],
+    [
+     "CLEAN",
+     "82%"
+    ]
+   ],
+   "share": "reaction-kits/share/reaction-share.jpg",
+   "thumb": "reaction-kits/thumb/reaction-thumb.jpg",
+   "sample": true
+  },
+  {
+   "title": "Ordered Reaction",
+   "kit": "orbs",
+   "hero": [
+    "SCORE",
+    "1368"
+   ],
+   "tiles": [
+    [
+     "HITS",
+     "54/60"
+    ],
+    [
+     "AVG RT",
+     "312ms"
+    ],
+    [
+     "BEST RT",
+     "184ms"
+    ],
+    [
+     "STREAK",
+     "12"
+    ],
+    [
+     "TIME",
+     "2:48"
+    ],
+    [
+     "CLEAN",
+     "90%"
+    ]
+   ],
+   "share": "reaction-kits/share/ordered-reaction-share.jpg",
+   "thumb": "reaction-kits/thumb/ordered-reaction-thumb.jpg",
+   "sample": true
+  },
+  {
+   "title": "Single Target",
+   "kit": "orbs",
+   "hero": [
+    "HITS",
+    "38/45"
+   ],
+   "tiles": [
+    [
+     "SCORE",
+     "720"
+    ],
+    [
+     "AVG RT",
+     "290ms"
+    ],
+    [
+     "BEST RT",
+     "160ms"
+    ],
+    [
+     "CLEAN",
+     "84%"
+    ],
+    [
+     "TIME",
+     "1:55"
+    ]
+   ],
+   "share": "reaction-kits/share/single-target-share.jpg",
+   "thumb": "reaction-kits/thumb/single-target-thumb.jpg",
+   "sample": true
+  },
+  {
+   "title": "Double Target",
+   "kit": "orbs",
+   "hero": [
+    "HITS",
+    "52/70"
+   ],
+   "tiles": [
+    [
+     "SCORE",
+     "610"
+    ],
+    [
+     "AVG RT",
+     "355ms"
+    ],
+    [
+     "BEST RT",
+     "190ms"
+    ],
+    [
+     "CLEAN",
+     "74%"
+    ],
+    [
+     "TIME",
+     "2:20"
+    ]
+   ],
+   "share": "reaction-kits/share/double-target-share.jpg",
+   "thumb": "reaction-kits/thumb/double-target-thumb.jpg",
+   "sample": true
+  },
+  {
+   "title": "Lateral Shuffle",
+   "kit": "cones",
+   "hero": [
+    "REPS",
+    "86"
+   ],
+   "tiles": [
+    [
+     "SCORE",
+     "430"
+    ],
+    [
+     "CLEAN",
+     "94%"
+    ],
+    [
+     "BEST SPLIT",
+     "0.82s"
+    ],
+    [
+     "DIR CHANGES",
+     "42"
+    ],
+    [
+     "TIME",
+     "1:00"
+    ]
+   ],
+   "share": "reaction-kits/share/lateral-shuffle-share.jpg",
+   "thumb": "reaction-kits/thumb/lateral-shuffle-thumb.jpg",
+   "sample": true
+  },
+  {
+   "title": "Jumping Jacks",
+   "kit": "ring",
+   "hero": [
+    "REPS",
+    "68"
+   ],
+   "tiles": [
+    [
+     "AVG CADENCE",
+     "72/min"
+    ],
+    [
+     "BEST 10s",
+     "14"
+    ],
+    [
+     "GOAL",
+     "60s"
+    ],
+    [
+     "TIME",
+     "1:00"
+    ]
+   ],
+   "share": "reaction-kits/share/jumping-jacks-share.jpg",
+   "thumb": "reaction-kits/thumb/jumping-jacks-thumb.jpg",
+   "sample": true
+  },
+  {
+   "title": "High Knees",
+   "kit": "ring",
+   "hero": [
+    "REPS",
+    "94"
+   ],
+   "tiles": [
+    [
+     "AVG CADENCE",
+     "96/min"
+    ],
+    [
+     "BEST 10s",
+     "18"
+    ],
+    [
+     "GOAL",
+     "60s"
+    ],
+    [
+     "TIME",
+     "1:00"
+    ]
+   ],
+   "share": "reaction-kits/share/high-knees-share.jpg",
+   "thumb": "reaction-kits/thumb/high-knees-thumb.jpg",
+   "sample": true
+  },
+  {
+   "title": "rate-my-form",
+   "kit": "rate",
+   "share": "reaction-kits/share/rate-my-form-share.jpg",
+   "thumb": "reaction-kits/thumb/rate-my-form-thumb.jpg"
+  },
+  {
+   "title": "rate-my-handles",
+   "kit": "rate",
+   "share": "reaction-kits/share/rate-my-handles-share.jpg",
+   "thumb": "reaction-kits/thumb/rate-my-handles-thumb.jpg"
+  }
+ ]
+}
